@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500;1,600&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Sora:wght@100;200;300;400;500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+:root {
+  --header-1: 32px;
+  --header-2: 30px;
+  --header-3: 25px;
+  --header-4: 18px;
+  --header-5: 14px;
+  --header-6: 10px;
+  --headerNav1: 20px;
+  --headerNav2: 16px;
+  --headerNav3: 13px;
+
+  --font-size-max: 54px;
+  --font-size-max2: 32px;
+  --header: 24px;
+  --font-1: 18px;
+  --font-2: 16px;
+  --font-3: 14px;
+  --font-4: 12px;
+  --font-5: 10px;
+  --font-6: 8px;
+  --icon-1: 24px;
+  --icon-2: 20px;
+  --caption: 12px;
+  --font-family-main: "Poppins";
+  --font-family-secondary: "Montserrat";
+  --font-family-tertiary: "Work Sans";
+  --font-weight-100: 100;
+  --font-weight-200: 200;
+  --font-weight-300: 300;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+  --font-weight-800: 800;
+  --font-weight-900: 900;
+  --color-primary: #008f84;
+  --color-secondary: #eaf7f7;
+  --color-background-white: #ffffff;
+  --color-button-activated: #06abab;
+  --color-button-hover: #06abab6f;
+  --info-grafis-font: #1a4980;
+  --bg-title-infografis: #26b8ac;
+  --bg-button-success: #1b9a3f;
+  --bg-button-error: #B00020;
+
+  --bg-button-color-primary: #008f84;
+
+
+ 
+  width: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
