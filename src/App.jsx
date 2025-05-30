@@ -8,7 +8,9 @@ import {
 } from "./components/loading/loadingContext";
 import Lottie from "react-lottie";
 import loadingAnimation from "./assets/loading.json";
-import CodeEditor from "./page/editorComponent";
+import CodeEditor from "./page/editorComponentAll";
+import CodeEditorEditorJS from "./page/editorComponentMarkDown";
+import CodeEditorMarkDown from "./page/editorComponentMarkDown";
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function AppRoutes() {
       )}
       <Routes>
         <Route path="/" element={<CodeEditor />} />
+        <Route path="/editorjs" element={<CodeEditorEditorJS />} />
+        <Route path="/markdown" element={<CodeEditorMarkDown />} />
       </Routes>
     </>
   );

@@ -1,0 +1,35 @@
+.md-editor {
+  color: rgb(255, 0, 0) !important;
+  height: 100% !important;
+}
+.cm-editor {
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
+  height: 100% !important;
+}
+
+.cm-gutters {
+  background-color: rgb(255, 255, 255) !important;
+  color: black !important;
+  height: 100% !important;
+}
+.cm-activeLine {
+  caret-color: rgb(255, 255, 255) !important;
+  height: 100% !important;
+}
+.md-editor-preview {
+  background-color: rgb(255, 255, 255) !important;
+  color: black !important;
+  height: 100% !important;
+}
+.wmde-markdown {
+  background-color: rgb(255, 255, 255) !important;
+  color: black !important;
+  height: 100% !important;
+}
+
+.md-editor-content {
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
+  height: 100% !important;
+}

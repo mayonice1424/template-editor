@@ -45,12 +45,11 @@
   --info-grafis-font: #1a4980;
   --bg-title-infografis: #26b8ac;
   --bg-button-success: #1b9a3f;
-  --bg-button-error: #B00020;
+  --bg-button-error: #b00020;
+  --color-canvas-subtle: #fd0c0c !important;
 
   --bg-button-color-primary: #008f84;
 
-
- 
   width: 100%;
 }
 
